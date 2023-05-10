@@ -13,15 +13,20 @@
         android:theme="@style/Theme.Trinity"
         tools:targetApi="31">
         <activity
+            android:name="com.example.trinity.SearchScreen"
+            android:label="Search Contact"
+            android:theme="@style/Theme.Trinity"
+            android:exported="false" />
+        <activity
             android:name="com.example.trinity.ScreenTwo"
             android:exported="false"
             android:label="Contact Details"
-            android:theme="@style/Theme.AppCompat.Light" />
+            android:theme="@style/Theme.Trinity" />
         <activity
             android:name="com.example.trinity.ScreenOne"
             android:exported="true"
             android:label="Contact List"
-            android:theme="@style/Theme.AppCompat.Light">
+            android:theme="@style/Theme.Trinity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
