@@ -60,6 +60,7 @@ android {
 
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 
 }
@@ -68,7 +69,7 @@ dependencies {
 
     implementation 'androidx.core:core-ktx:1.10.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
-
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
     // Compose and UI
     implementation 'androidx.activity:activity-compose:1.7.1'
     implementation platform('androidx.compose:compose-bom:2022.10.00')
