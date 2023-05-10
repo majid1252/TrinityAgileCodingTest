@@ -80,6 +80,9 @@ dependencies {
     implementation 'com.valentinilk.shimmer:compose-shimmer:1.0.4'
     implementation 'com.github.bumptech.glide:compose:1.0.0-alpha.1' // Glide for Compose
 
+    // SwipeRefreshLayout
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
+
     // AndroidX Core and AppCompat
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'androidx.core:core-ktx:1.10.0'
